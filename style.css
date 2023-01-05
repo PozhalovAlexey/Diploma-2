@@ -407,6 +407,7 @@ body {
 .trends {
     max-width: 1660px;
     margin: 60px auto 0 auto;
+    width: 100%;
 }
 
 @media screen and (min-width: 641px) and (max-width: 1199px) {
@@ -466,7 +467,6 @@ body {
 }
 
 .trends__item {
-    max-height: 320px;
     width: 100%;
     border: solid 3px #71643a;
     padding: 40px 40px 35px 25px;
@@ -476,7 +476,7 @@ body {
     display: flex;
     align-items: flex-end;
     flex-grow: 1;
-    padding: 8% 20px 20px;
+    padding: 8% 20px 8% 20px;
     margin-right: 4px;
     margin-bottom: 4px;
     width: calc(25% - 4px);
