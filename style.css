@@ -120,7 +120,12 @@ body {
 
 @media screen and (max-width: 640px) {
     .header__logo {
-        display: none;
+        width: 270px;
+        text-align: center;
+        margin: 175px auto 0 auto;
+    }
+    .header__line{
+        align-items: stretch;
     }
 }
 
@@ -235,31 +240,10 @@ body {
 
 @media screen and (max-width: 640px) {
     .header__title {
-        width: 75%;
-        max-width: 270px;
+        width: 100%;
         margin: 45px auto 0 auto;
         font-size: 26px;
-        line-height: 1.38;
-    }
-}
-
-/*mobile__logo*/
-.mobile__logo {
-    display: none;
-}
-
-@media screen and (min-width: 641px) and (max-width: 1199px) {
-    .mobile__logo {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    .mobile__logo {
-        display: block;
-        text-align: center;
-        width: 75%;
-        margin: 175px auto 0 auto;
+        line-height: 1.4;
     }
 }
 
@@ -296,6 +280,12 @@ body {
 @media screen and (min-width: 641px) and (max-width: 1199px) {
     .pop__up__container {
         width: 50%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .pop__up__container{
+        width: 90%;
     }
 }
 
@@ -405,7 +395,6 @@ body {
 
 /*trends*/
 .trends {
-    max-width: 1660px;
     margin: 60px auto 0 auto;
     width: 100%;
 }
@@ -476,7 +465,7 @@ body {
     display: flex;
     align-items: flex-end;
     flex-grow: 1;
-    padding: 8% 20px 8% 20px;
+    padding: 8% 20px 20px;
     margin-right: 4px;
     margin-bottom: 4px;
     width: calc(25% - 4px);
