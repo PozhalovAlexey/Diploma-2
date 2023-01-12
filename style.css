@@ -334,7 +334,7 @@ body {
 }
 
 .radio:checked ~ .radio__group__text::before {
-    background-image: url("svg/form-circle.svg");
+    background-image: url(svg/form-circle.svg);
 }
 
 .radio__group__text::before {
