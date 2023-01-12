@@ -344,7 +344,7 @@ body {
     width: 15px;
     height: 15px;
     margin-right: 3px;
-    background: url(/svg/form-empty-circle.svg) no-repeat center center;
+    background: url(svg/form-empty-circle.svg) no-repeat center center;
     background-size: 100%;
 }
 
